@@ -9,6 +9,7 @@ import update from './routes/update.js'
 import mainPage from './routes/main-page.js'
 
 const app = express();
+const port = process.env.PORT || 8000
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 app.engine('handlebars', engine())
@@ -25,4 +26,4 @@ app.use(mainPage)
 app.use(update);
 
 
-app.listen(8000);
+app.listen(port);
