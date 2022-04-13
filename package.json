@@ -2,11 +2,13 @@
   "name": "coffee",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node .",
+    "dev": "nodemon --ext * 'js,handlebars,css' & npm run scss",
+    "scss": "sass --watch src/scss/main.scss public/styles/main.css"
   },
   "keywords": [],
   "author": "",
@@ -16,8 +18,10 @@
     "body-parser": "^1.19.2",
     "cors": "^2.8.5",
     "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
     "nodemon": "^2.0.15",
     "pug": "^3.0.2",
-    "puppeteer": "^13.5.1"
+    "puppeteer": "^13.5.1",
+    "sass": "^1.49.11"
   }
 }

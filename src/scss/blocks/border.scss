@@ -1,0 +1,12 @@
+.border {
+    position: absolute;
+    background-color: inherit;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+}
+.border:nth-last-of-type(1) {
+    top: 0;
+    left: 0;
+}

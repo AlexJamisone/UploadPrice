@@ -1,0 +1,46 @@
+@import 'var.scss';
+@import 'mixins.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(-45deg, #4158D0, #C850C0, #FFCC70);
+    background-size: 400% 400%;
+    animation: gradientBackGround 10s ease-in-out infinite;
+}
+
+@keyframes gradientBackGround {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@import 'blocks/container.scss';
+@import 'blocks/partricle.scss';
+@import 'blocks/border.scss';
+@import 'blocks/logo.scss';
+@import 'blocks/tablet.scss';
+@import 'blocks/scrollbar.scss';
+@import 'blocks/form.scss';
+
+//helper
+@import 'helper.scss';
+
+
+
+
+
+
