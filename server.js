@@ -23,7 +23,7 @@ app.use('/assets', express.static(path.join(__dirname, '../public')))
 app.use(bodyParser.urlencoded({extended: false}));
 
 app.use(mainPage)
-app.use(update);
+// app.use(update);
 
 
 app.listen(port);

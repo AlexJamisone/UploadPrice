@@ -13,7 +13,7 @@ searchInput.addEventListener("input", (e) => {
 })
 
 function getCoffee() {
-    const api_url = `https://wrapapi.com/use/alexjamison/homeit/all/0.0.4?wrapAPIKey=HCTPpA928xiR2xIr0ON2HkyaS8gKg4Lz`
+    const api_url = `https://wrapapi.com/use/alexjamison/homeit/all/latest?wrapAPIKey=HCTPpA928xiR2xIr0ON2HkyaS8gKg4Lz`
     fetch(api_url)
         .then(result =>{
             return result.json()
