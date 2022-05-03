@@ -6,5 +6,5 @@ export function getMainPage(req, res, next) {
         weekNum: new Intl.DateTimeFormat('ru-RU', { day: 'numeric'}).format(),
         month: new Intl.DateTimeFormat('ru-RU', { month: 'short'}).format(),
     })
-    // next()
+    next()
 };
