@@ -19,6 +19,7 @@ import {
     api_link_mexicoCh,
     api_link_mild250gr,
     api_link_natti,
+    api_link_venisuela,
     api_link_verona
 } from '../api/api-links.js';
 
@@ -43,4 +44,5 @@ export function mergePrice() {
     updatePrice(488, api_link_natti)
     updatePrice(608, api_link_ethiopiaOromia)
     updatePrice(400, api_link_brazilSerado)
+    updatePrice(655, api_link_venisuela)
 }
