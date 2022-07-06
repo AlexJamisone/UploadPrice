@@ -1,0 +1,17 @@
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    svg {
+        fill: #0D0802;
+        width: 200px;
+
+        margin-top: 30px;
+        margin-left: 250px;
+
+        transition: all .2s ease-in-out;
+
+        &:hover {
+            scale: 1.2;
+        }
+    }
+}
