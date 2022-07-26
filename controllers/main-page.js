@@ -1,6 +1,8 @@
 export function getMainPage(req, res, next) {
-    res.render('home', {
+    res.render('main', {
         pageTitle: 'Home Page',
+        
     })
-    // next()
+
+    next()
 };

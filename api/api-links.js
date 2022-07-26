@@ -37,4 +37,6 @@ export const
 
     api_link_ethiopiaOromia = 'https://wrapapi.com/use/alexjamison/homeit/ethiopiaOromia/latest?wrapAPIKey=HCTPpA928xiR2xIr0ON2HkyaS8gKg4Lz',
     
-    api_link_venisuela = 'https://wrapapi.com/use/alexjamison/homeit/venisuela/latest?wrapAPIKey=HCTPpA928xiR2xIr0ON2HkyaS8gKg4Lz'
+    api_link_venisuela = 'https://wrapapi.com/use/alexjamison/homeit/venisuela/latest?wrapAPIKey=HCTPpA928xiR2xIr0ON2HkyaS8gKg4Lz',
+
+    api_link_ruandaNew = "https://wrapapi.com/use/alexjamison/homeit/ruanda-new/latest?wrapAPIKey=HCTPpA928xiR2xIr0ON2HkyaS8gKg4Lz"
