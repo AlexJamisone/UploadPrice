@@ -1,9 +1,7 @@
-import express from 'express'
+import express from "express";
+import { AddPage } from "../controllers/add-controller.js";
+const route = express.Router()
 
-import { addController } from "../controllers/add.js";
+route.get('/add', AddPage)
 
-const router = express.Router()
-
-router.get('/add', addController)
-
-export default router
+export default route

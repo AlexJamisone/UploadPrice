@@ -1,8 +1,7 @@
 export function getMainPage(req, res, next) {
-    res.render('main', {
+    res.render('index', {
         pageTitle: 'Home Page',
         
     })
-
     next()
 };

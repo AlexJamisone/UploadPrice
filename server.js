@@ -12,8 +12,7 @@ const app = express();
 const port = process.env.PORT || 8000
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'pug')
+app.set('view engine', 'pug');
 
 
 app.use(express.static('public'))
