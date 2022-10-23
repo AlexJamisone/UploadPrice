@@ -32,7 +32,7 @@ export async function updatePrice(id, url) {
                 minimalPrice: tastyPrice
             }
         }).then(result =>{
-            console.log(result.data.minimalPrice)
+            console.log(result.data.id)
         })
         .catch(err => {
             console.log(err)

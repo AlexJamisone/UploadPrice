@@ -21,7 +21,8 @@ import {
     api_link_natti,
     api_link_verona,
     api_link_venisuela,
-    api_link_ruandaNew
+    api_link_ruandaNew,
+    api_link_columbiaBogota
 } from '../api/api-links.js';
 
 export function mergePrice() {
@@ -47,4 +48,5 @@ export function mergePrice() {
     updatePrice(400, api_link_brazilSerado)
     updatePrice(697, api_link_venisuela)
     updatePrice(788, api_link_ruandaNew)
+    updatePrice(838, api_link_columbiaBogota)
 }
